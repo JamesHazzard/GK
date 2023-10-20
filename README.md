@@ -13,4 +13,10 @@ Knowing that in the limit $N \rightarrow \infty$, the GK model approaches the sa
 
 $$ J_i = X(\tau_i) d (\text{ln} \tau_i) $$
 
-where the interval $d (\text{ln} \tau_i $ is the interval between successive $tau_i$ in natural logarithm space. Since $X(\tau_i)$ is directly calculable from experimental parameterisations of anelasticity such as Yamauchi and Takei (2016), we can directly find the homologous-temperature- and Maxwell timescale- dependent coefficients $J_i$. The exact same approach can be applied to find $M(t)$ if the spectrum $Y(\tau)$ is known. 
+where the interval $d (\text{ln} \tau_i)$ is the interval between successive $\tau_i$ in natural logarithm space. Since $X(\tau_i)$ is directly calculable from experimental parameterisations of anelasticity such as Yamauchi and Takei (2016), we can directly find the homologous-temperature- and Maxwell timescale- dependent coefficients $J_i$. The exact same approach can be applied to find $M(t)$ if the spectrum $Y(\tau)$ is known. In this situation, we can find the components according to
+
+$$ M_i = Y(\tau_i) d (\text{ln} \tau_i) $$
+
+Such values of $M_i$ correspond to the coefficients in the Generalised Maxwell approximation given by
+
+$$ M(t) = M_U - \Sigma_i^N M_i (1 - e^{-t/\tau_i}) $$
