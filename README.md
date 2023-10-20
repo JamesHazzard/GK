@@ -1,7 +1,7 @@
 # GK
 Space used to further understand Generalised Kelvin form of the creep compliance.
 
-Given a parameterisation of the relaxation spectrum $X(\tau)$, it is possible to construct the time-domain creep compliance via the expression
+Given a parameterisation of the relaxation spectrum $X(\tau)$, it is possible to construct the time-domain creep compliance via the expression (ignoring the viscous term $t/\eta$ which is constant across parameterisations)
 
 $$ J(t) = J_U + \int X(\tau) (1 - e^{-t/\tau}) d (\text{ln} \tau) $$
 
