@@ -20,3 +20,5 @@ $$ M_i = Y(\tau_i) d (\text{ln} \tau_i) $$
 Such values of $M_i$ correspond to the coefficients in the Generalised Maxwell approximation given by
 
 $$ M(t) = M_U - \Sigma_i^N M_i (1 - e^{-t/\tau_i}) $$
+
+The code contained in this directory shows what approximating $J(t)$ using $N=10$ Kelvin elements looks like with the parameterisation YT16.
